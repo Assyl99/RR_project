@@ -53,7 +53,7 @@ Start by cloning the repository using bash, command line or git bash
 ### 3. Set Up a Virtual Environment 
 To create virtual environment, run the following commands in the Visual studio code terminal: 
 
-- ```python -m venv venv```
+- ```python -m venv .venv``` on `windows` and ```python3 -m venv .venv``` for `macOS/Linux`.
 - ```source venv/Scripts/activate``` This is command from git bash and for `macOS/Linux`.
 -```.\.venv\Scripts\Activate.ps1``` run this if you are using `windows`. If you get the error of `UnauthorizedAcces` run the following command ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser``` then run the activate command again. 
 
